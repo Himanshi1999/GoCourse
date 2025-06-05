@@ -10,7 +10,7 @@ func GenDisplaceFn(acceleration, initial_velocity, initial_displacement float64)
 	}
 }
 
-func main() {
+func displacement() {
 	var acceleration, initial_velocity, initial_displacement, time float64
 
 	fmt.Print("Enter the value for acceleration: ")
