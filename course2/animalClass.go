@@ -25,7 +25,7 @@ func (a Animal) Speak() {
 	fmt.Println(a.noise)
 }
 
-func main() {
+func animalClass() {
 
 	animals := map[string]Animal{
 		"cow":   {"grass", "walk", "moo"},
