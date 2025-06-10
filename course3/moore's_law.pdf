@@ -1,0 +1,34 @@
+Moore's Law: Definition
+
+Moore's Law is the observation that the number of transistors on a microchip would double approximately every two years. 
+However, in recent years, Moore's Law has started to slow down and is no longer valid at the same rate it once was. 
+This slowdown can be attributed to a range of physical, electrical, and engineering limitations as transistor sizes 
+approach atomic scales. Following are the major concepts that limits this law to be true.
+
+1. Temperature Increases as Power Increases:
+As transistor density increases, the power consumed by the chip also increases. Power consumption in a transistor is a direct
+result of its activity: as more transistors are packed onto a chip, more of them are working at the same time, thus requiring
+more power. This increase in power consumption leads to an increase in heat generation.
+
+2. Power Increases as Transistor Density Increases:
+This concept goes hand in hand with the first one: as more transistors are packed into a smaller area, the total power
+consumption of the chip increases. Each transistor requires power to switch between states (from 0 to 1 and vice versa), and as
+the transistor count increases, so does the total power required for operation.
+
+3. Voltage Scaling Reduces (Dynamic) Power Consumption:
+Dynamic power consumption, the power used when a transistor is switching between states, is proportional to the square of
+the supply voltage. In simpler terms, if you lower the voltage, you can reduce the power consumption. This is why voltage
+scaling (reducing the operating voltage of transistors) has been a common technique to control power use and improve the
+energy efficiency of chips.
+
+4. Voltage Scaling Cannot Prevent Leakage Power Loss:
+Even when voltage scaling is applied to reduce dynamic power consumption, a major issue persists: leakage power. Leakage
+current is the current that flows even when a transistor is supposed to be off, and it increases exponentially as the transistor
+size shrinks. This leakage power is a significant contributor to total power consumption in modern chips, and it cannot be
+significantly reduced through voltage scaling.
+
+5 Voltage Scaling is Limited Due to Noise or Threshold Voltage:
+In modern transistors, the threshold voltage is the minimum voltage required to switch the transistor from an "off" state to an
+"on" state. Lowering the supply voltage reduces the threshold voltage, but doing so makes the transistor more susceptible to
+noise and increases the chances of errors in the circuit. Additionally, extremely low voltages may prevent transistors from fully
+turning on or off, which is essential for correct functioning. 
