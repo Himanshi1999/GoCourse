@@ -19,7 +19,7 @@ func task2() {
 	fmt.Println("Task 2 end", x)
 }
 
-func main() {
+func race_condition() {
 	go task1()
 	go task2()
 	time.Sleep(1 * time.Second)
