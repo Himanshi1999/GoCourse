@@ -33,7 +33,7 @@ func sortSubarray(subarray []int, ch chan []int) {
 	ch <- subarray
 }
 
-func main() {
+func routine() {
 	fmt.Println("Enter a series of integers separated by spaces:")
 
 	scanner := bufio.NewScanner(os.Stdin)
